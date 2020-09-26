@@ -58,6 +58,7 @@
 .protypes{
   background-color: #c87941;
   padding-bottom: 2%;
+  margin: 1%;
 }
 
 .products {
@@ -75,6 +76,14 @@
   margin-top: 10%;
   padding-top: 10%;
 }
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* recommendedProducts */
+
+.recommendedProducts {
+  margin: 1%;
+}
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* Clearfix (clear floats) */
@@ -120,6 +129,9 @@
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.testimonialSection {
+  margin: 1%;
+}
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -137,4 +149,7 @@ footer {
      padding: 50px;
      text-align: center;
      color: white;
-   }
+}
+.card {
+  border-radius: 5px;
+}
