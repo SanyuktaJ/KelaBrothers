@@ -1,7 +1,3 @@
-<head>
-
-<style>
-
 .p1 {
   background-color: #666;
   padding: 30px;
@@ -10,12 +6,46 @@
   color: white;
 }
 
+/* Navigation Bar */
 
+.navbar {
+  padding: 0 0 4.5rem;
+}
 
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 
-.container{
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+#header a{
+  font-size: 1.5rem;
+  margin: 2%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* Banner Carousel */
+.bannerItem {
+  height: 50%;
+  width: 100%;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.container {
   //*image-orientation: inherit;*/
-  background-color: red;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
 }
 
 .column {
@@ -24,6 +54,29 @@
   padding: 5px;
 }
 
+/* Products */
+.protypes{
+  background-color: #c87941;
+  padding-bottom: 2%;
+}
+
+.products {
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5% 0 2% 7%;
+}
+
+.products div {
+  margin-right: 2%;
+}
+
+.products h2 {
+  margin-top: 10%;
+  padding-top: 10%;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
@@ -31,14 +84,21 @@
   display: table;
 }
 
+/* Testimonial Styles */
+
+.testimonial {
+  padding: 10% 0 !important;
+}
+
 .testimonial p {
-    color: #fff;
+    color: black;
     line-height: 19px;
     font-size: 13px;
     margin-top: 16px
 }
 
 .testimonial h5 {
+  padding-top: 10px;
     color: #9c27b0;
     text-transform: uppercase;
     font-size: 15px;
@@ -56,43 +116,25 @@
     font-size: 13px;
     margin-top: 16px
 }
-.Aboutexp a1{
-  align-items: stretch;
+.testo{
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 h3 {
-  background-color: Blue;
-
-  padding-top: 20px;
-padding-bottom: 20px;
+  margin-top: 0%;
+  background-color: #87431d;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
-  font-size: 10px;
-  color: red;
+  color: white;
 }
 
-ul {
-   list-style-type: none;
-   margin: 0px;
-   padding: 50px;
-   text-align: right;
-   background-color: grey;
-   font-size: 50;
-   color: white;
-background-image: url("bg2.jpg");
-   }
-
-	li {
-  	   display: inline;
- 	   }
-
- footer {
-     background-color: #777;
+footer {
+     background-color: #290001;
      padding: 50px;
      text-align: center;
      color: white;
    }
-
-
-
-</style>
-</head>
