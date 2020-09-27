@@ -1,13 +1,5 @@
-.p1 {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
 body {
-  background-color: #f0a500;
+  /* background-color: #87431d;/*f0a500*/
 }
 
 /* Navigation Bar */
@@ -109,13 +101,13 @@ width:30%;
 
 .recommendedProducts {
   margin: 1%;
+  background-color: #c87941;
 }
 
 .recommendedProductsRow {
-  background-color: #f0a500;
+  /* background-color: #f0a500; */
   padding: 1%;
 }
-
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* Clearfix (clear floats) */
@@ -163,6 +155,7 @@ width:30%;
 }
 
 .testimonialSection {
+  background-color: #290001;/*87431d*/
   margin: 1%;
 }
 
