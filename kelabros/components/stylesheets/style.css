@@ -6,16 +6,36 @@
   color: white;
 }
 
+body {
+  background-color: #f0a500;
+}
+
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0;
+  margin:0;
+  background:#542410;
+  z-index: 999999;
+  /*background-color:saddlebrown;*/
+
+}
+
+#navbarTogglerDemo02{
+padding-right:15%;
 }
 
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  margin:2px auto;
+  height:auto;
+  padding-left:10%;
+}
+
+.navbar-brand img{
+width:30%;
 }
 
 .nav-item {
@@ -23,18 +43,23 @@
 }
 
 .nav-link {
+  color:#f09d61;
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
 
 #header a{
   font-size: 1.5rem;
-  margin: 2%;
+ /* margin: 2%;*/
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* Banner Carousel */
+.bannerSection {
+  margin: 1%;
+}
+
 .bannerItem {
   height: 50%;
   width: 100%;
@@ -42,10 +67,11 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .container {
-  //*image-orientation: inherit;*/
+  /*image-orientation: inherit;*/
   width: 100%;
   max-width: 100%;
   text-align: center;
+  padding: 0;
 }
 
 .column {
@@ -59,6 +85,7 @@
   background-color: #c87941;
   padding-bottom: 2%;
   margin: 1%;
+  text-align: center;
 }
 
 .products {
@@ -82,6 +109,11 @@
 
 .recommendedProducts {
   margin: 1%;
+}
+
+.recommendedProductsRow {
+  background-color: #f0a500;
+  padding: 1%;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -111,37 +143,48 @@
     color: #9c27b0;
     text-transform: uppercase;
     font-size: 15px;
-    margin-top: 8px
+    margin-top: 2%;
 }
-.testimonial h4 {
-    color: brown;
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-top: 8px
-}
-.testimonial p1 {
+
+.testimonial p {
     color: black;
     line-height: 19px;
     font-size: 13px;
-    margin-top: 16px
+    margin: 5% 25%;
 }
+
+.testimonial img {
+    margin: 2% auto;
+}
+
 .testo{
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
 .testimonialSection {
   margin: 1%;
+}
+
+.testimonialSection h3 {
+  border-radius: 5px 5px 0 0;
+}
+
+.carousel-control{
+  border-radius: 0 0 5px 5px;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 h3 {
-  margin-top: 0%;
+  margin-top: 0;
   background-color: #87431d;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   text-align: center;
   color: white;
+  margin-bottom: 0;
+  border-radius: 5px 5px 0 0;
 }
 
 footer {
@@ -150,6 +193,14 @@ footer {
      text-align: center;
      color: white;
 }
+#icons{
+z-index:2.5;
+font-size:2.5em;
+}
+
 .card {
   border-radius: 5px;
+}
+#dryFruitsHeader{
+background-color:light-cyan;
 }
