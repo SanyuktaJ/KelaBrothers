@@ -13,13 +13,29 @@ body {
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0;
+  margin:0;
+  background:#542410;
+  z-index: 999999;
+  /*background-color:saddlebrown;*/
+
+}
+
+#navbarTogglerDemo02{
+padding-right:15%;
 }
 
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  margin:2px auto;
+  height:auto;
+  padding-left:10%;
+}
+
+.navbar-brand img{
+width:30%;
 }
 
 .nav-item {
@@ -27,13 +43,14 @@ body {
 }
 
 .nav-link {
+  color:#f09d61;
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
 
 #header a{
   font-size: 1.5rem;
-  margin: 2%;
+ /* margin: 2%;*/
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -176,6 +193,14 @@ footer {
      text-align: center;
      color: white;
 }
+#icons{
+z-index:2.5;
+font-size:2.5em;
+}
+
 .card {
   border-radius: 5px;
+}
+#dryFruitsHeader{
+background-color:light-cyan;
 }
