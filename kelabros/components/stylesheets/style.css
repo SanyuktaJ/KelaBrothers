@@ -27,7 +27,7 @@ padding-right:15%;
 }
 
 .navbar-brand img{
-width:30%;
+  width:15%;
 }
 
 .nav-item {
@@ -92,8 +92,18 @@ width:30%;
 }
 
 .products h2 {
+  font-weight: bold;
+  color: #542410;
   margin-top: 10%;
   padding-top: 10%;
+}
+
+.products a{
+  text-decoration: none;
+}
+
+.products a: hover{
+  text-decoration: none;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
