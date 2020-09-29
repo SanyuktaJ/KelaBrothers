@@ -27,7 +27,7 @@ padding-right:15%;
 }
 
 .navbar-brand img{
-  width:15%;
+max-width:130px;
 }
 
 .nav-item {
@@ -261,9 +261,14 @@ footer {
      text-align: center;
      color: white;
 }
-#icons{
-z-index:2.5;
+.handles{
+margin-top: 3rem !important;
 font-size:2.5em;
+}
+
+.handles a {
+    margin:10px;
+    color:#ffc93c;
 }
 
 .card {
