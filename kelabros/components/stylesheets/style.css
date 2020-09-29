@@ -244,6 +244,14 @@ font-size: 15px;
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+/*dryFruits Page*/
+
+.dryfruits h2{
+  font-size: 1.5rem;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 h3 {
   margin-top: 0;
   background-color: #87431d;
