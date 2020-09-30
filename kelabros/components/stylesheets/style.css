@@ -228,6 +228,10 @@ font-size: 15px;
   padding: 0;
 }
 
+.contact-card-header {
+  font-weight: bold;
+}
+
 .contact-card-body {
   padding: 0;
 }
@@ -238,6 +242,23 @@ font-size: 15px;
 
 .contact-card-title {
   padding: 5%;
+}
+
+.contact-text {
+  margin:2%;
+  color:white;
+  font-weight: bold;
+  align-self: center;
+}
+
+.contact-map{
+  margin:5%;
+  text-align:center;
+}
+
+.contact-map h3{
+  border-radius: 5px;
+  margin-bottom: 2%;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
