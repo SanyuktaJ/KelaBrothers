@@ -203,28 +203,41 @@ font-size: 15px;
 
 }
 
-/* Split the screen in half */
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  overflow-x: hidden;
-  padding-top: 20px;
+.cont-details h3{
+  border-radius: 5px;
 }
-
 /* Control the left side */
-.left {
+.contact-left {
   left: 0;
   background-color: #c87941;
   padding: 8% 5% 5% 10%;
 }
 
 /* Control the right side */
-.right {
+.contact-right {
   right: 0;
   background-color: #c87941;
     padding: 8% 5% 5% 5%;
+}
+
+.contact-block {
+  margin: 2% auto;
+}
+
+.contact-card {
+  padding: 0;
+}
+
+.contact-card-body {
+  padding: 0;
+}
+
+.contact-card-text {
+  padding: 5%;
+}
+
+.contact-card-title {
+  padding: 5%;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -259,8 +272,8 @@ footer {
      color: white;
 }
 .handles{
-margin-top: 3rem !important;
-font-size:2.5em;
+  margin-top: 3rem !important;
+  font-size:2.5em;
 }
 
 .handles a {
