@@ -128,11 +128,11 @@ max-width:130px;
     color: black;
     line-height: 19px;
     font-size: 13px;
-    margin-top: 16px
+    margin-top: 16px;
 }
 
 .testimonial h5 {
-  padding-top: 10px;
+    padding-top: 10px;
     color: #9c27b0;
     text-transform: uppercase;
     font-size: 15px;
