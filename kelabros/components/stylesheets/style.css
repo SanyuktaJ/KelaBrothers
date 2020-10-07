@@ -24,6 +24,7 @@
 .navbar {
   padding: 0;
   margin:0;
+ /* background-image: linear-gradient(180deg, #542410, #784f28);*/
   background:#542410;
   z-index: 999999;
 }
@@ -65,7 +66,7 @@ max-width:130px;
 }
 
 #header a{
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -95,6 +96,10 @@ max-width:130px;
 }
 
 /* Products */
+.protypes h3{
+font-size:1.3rem;
+}
+
 .protypes{
   background-color: #c87941;
   margin: 1%;
@@ -135,7 +140,7 @@ max-width: 70%
 }
 
 .products h2 {
-  font-size:1.75rem;
+  font-size:1.3rem;
   font-weight: bold;
   color: white;
   margin-top: 10%;
@@ -160,6 +165,9 @@ padding-bottom:2%;
 .recommendedProducts {
   margin: 1%;
   background-color: #c87941;
+}
+.recommendedProducts h3{
+font-size:1.3rem;
 }
 
 .recommendedProductsRow {
@@ -283,7 +291,6 @@ padding-bottom:2%;
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* dryFruits */
-
 .p1 {
   margin-top: 0;
   background-color: #ffc93c;
@@ -400,6 +407,14 @@ padding-bottom:2%;
 
 /*dryFruits Page*/
 
+#sectionName1{
+background-image: linear-gradient(180deg, #FFD57E, #AC4B1C);
+}
+
+#sectionName3{
+background-image: linear-gradient(180deg, #FFD57E, #AC4B1C);
+}
+
 .dryfruits h2{
   font-size: 1rem;
 }
@@ -443,4 +458,8 @@ footer {
 margin:auto;
 width:50%;
 background:khaki;
+}
+
+.testimonialSection h3{
+font-size:1.3rem;
 }
