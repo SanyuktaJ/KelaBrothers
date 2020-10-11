@@ -20,7 +20,6 @@
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0;
   margin:0;
@@ -52,7 +51,7 @@ padding-right:15%;
 }
 
 .navbar-brand img{
-max-width:130px;
+max-width:80px;
 }
 
 .nav-item {
@@ -65,6 +64,10 @@ max-width:130px;
   font-family: "Montserrat-Light";
 }
 
+.nav-link:hover {
+  color: white;
+}
+
 #header a{
   font-size: 1.3rem;
 }
@@ -73,12 +76,25 @@ max-width:130px;
 
 /* Banner Carousel */
 .bannerSection {
-  margin: 1%;
+  /* margin: 1%; */
 }
 
 .bannerItem {
-  height: 50%;
+  height: inherit;
   width: 100%;
+}
+
+.carousel-inner {
+  height: inherit;
+  max-height: 60%;
+}
+
+#bannerCarousel {
+  background-color: #c87941;
+}
+
+.banner-image {
+  width: 60%;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
@@ -102,7 +118,7 @@ font-size:1.3rem;
 
 .protypes{
   background-color: #c87941;
-  margin: 1%;
+  /* margin: 1%; */
   text-align: center;
 }
 
@@ -163,7 +179,7 @@ padding-bottom:2%;
 /* recommendedProducts */
 
 .recommendedProducts {
-  margin: 1%;
+  /* margin: 1%; */
   background-color: #c87941;
 }
 .recommendedProducts h3{
@@ -192,13 +208,6 @@ font-size:1.3rem;
   padding: 5% 0 !important;
 }
 
-.testimonial p {
-    color: black;
-    line-height: 19px;
-    font-size: 13px;
-    margin-top: 16px;
-}
-
 .testimonial h5 {
     padding-top: 10px;
     color: #9c27b0;
@@ -209,9 +218,13 @@ font-size:1.3rem;
 
 .testimonial p {
     color: black;
-    line-height: 19px;
-    font-size: 13px;
+    line-height: 1.4;
+    font-size: 1rem;
     margin: 5% 25%;
+    word-wrap: break-word;
+    min-height: 150px;
+    text-align: center;
+    display: inline-block;
 }
 
 .testimonial img {
@@ -225,7 +238,7 @@ font-size:1.3rem;
 
 .testimonialSection {
   background-color: #290001;
-  margin: 1%;
+  /* margin: 1%; */
 }
 
 .testimonialSection h3 {
@@ -291,6 +304,10 @@ font-size:1.3rem;
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* dryFruits */
+.dryfruit-main {
+  background-color: #FFD57E;
+}
+
 .p1 {
   margin-top: 0;
   background-color: #ffc93c;
@@ -302,13 +319,19 @@ font-size:1.3rem;
   margin-bottom: 0;
   border-radius: 5px 5px 0 0;
 }
+
 .p2{
   padding-top: 10px;
   padding-bottom: 5px;
   text-align: center;
   font-size: 20px;
   font-style: bold;
+}
 
+@media only screen and (max-device-width: 760px) {
+  .dryfruit-main{
+    height: 75vh;
+  }
 }
 /* /////////////////////////////// */
 
@@ -438,6 +461,7 @@ footer {
      padding: 50px;
      text-align: center;
      color: white;
+     bottom: 0;
 }
 .handles{
   margin-top: 3rem !important;
@@ -462,4 +486,8 @@ background:khaki;
 
 .testimonialSection h3{
 font-size:1.3rem;
+}
+
+.header-gradient {
+  background-image: linear-gradient(180deg, #AC4B1C, #FFD57E);
 }
